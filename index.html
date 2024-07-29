@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./resources/iconCalculator.png" />
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="display">
+        <input type="text" id="history" disabled />
+        <input type="text" placeholder="0" id="input" disabled />
+      </div>
+      <div class="buttons">
+        <div class="row" class="A">
+          <button class="oprn" id="AC">AC</button>
+          <button class="oprn">DEL</button>
+          <button class="oprn">%</button>
+          <button class="oprn">/</button>
+        </div>
+        <div class="row" class="B">
+          <button class="num">7</button>
+          <button class="num">8</button>
+          <button class="num">9</button>
+          <button class="oprn">*</button>
+        </div>
+        <div class="row" class="C">
+          <button class="num">4</button>
+          <button class="num">5</button>
+          <button class="num">6</button>
+          <button class="oprn">-</button>
+        </div>
+        <div class="row" class="D">
+          <button class="num">1</button>
+          <button class="num">2</button>
+          <button class="num">3</button>
+          <button class="oprn">+</button>
+        </div>
+        <div class="row" class="E">
+          <button class="num">.</button>
+          <button class="num">0</button>
+          <button class="num">()</button>
+          <button id="eql" class="oprn">=</button>
+        </div>
+      </div>
+    </div>
+    <footer>Made with ❤️ by Akash.</footer>
+    <script src="./app.js"></script>
+  </body>
+</html>

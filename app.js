@@ -22,6 +22,7 @@ arr.forEach((button) => {
     } else if (x == "AC") {
       str = "";
       hist = "";
+      Parenthesis = false;
       input.value = str;
       history.value = hist;
     } else if (x == "DEL") {
